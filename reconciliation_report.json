@@ -1,0 +1,89 @@
+{
+  "bulk_jobs_issued": 1,
+  "bulk_jobs_failed": 0,
+  "bulk_orders_loaded": 9040,
+  "bulk_lineitems_loaded": 12620,
+  "bulk_orphan_lineitems": 0,
+  "bulk_orphan_parent_ids": [],
+  "bulk_orders_without_lineitems": 0,
+  "listing_distinct_ids": 9004,
+  "listing_overlap_dupes": 6,
+  "listing_email_stripped_pages": 3,
+  "customers_loaded": 9300,
+  "events_received": 1644,
+  "events_duplicate": 205,
+  "events_distinct": 1439,
+  "shadow_records": 300,
+  "distinct_people": 9000,
+  "truth": {
+    "note": "Use this to check your own work. Reaching these numbers reliably is the exercise; reading them off is not.",
+    "orders_total_all_time": 9040,
+    "orders_reachable_by_listing": 9004,
+    "orders_cancelled": 927,
+    "customer_records": 9300,
+    "exchange_pairs": 240,
+    "hint": "Two further figures \u2014 distinct real people who have bought, and 2023-onward net revenue with exchanges counted once \u2014 are for you to derive and defend."
+  },
+  "hidden_from_listing": 36,
+  "hidden_sample": [
+    900000111,
+    900000243,
+    900000342,
+    900000758,
+    900000980
+  ],
+  "orders_cancelled": 927,
+  "exchange_twins": 240,
+  "distinct_buyers": 3094,
+  "distinct_buyers_incl_cancelled": 3179,
+  "net_revenue_2023": 20529284.0,
+  "naive_revenue_2023": 21084985.0,
+  "repeat_purchase_rate": 0.7531,
+  "checks": [
+    [
+      "orders_total_all_time",
+      9040,
+      9040,
+      "OK"
+    ],
+    [
+      "orders_reachable_by_listing",
+      9004,
+      9004,
+      "OK"
+    ],
+    [
+      "orders_cancelled",
+      927,
+      927,
+      "OK"
+    ],
+    [
+      "customer_records",
+      9300,
+      9300,
+      "OK"
+    ],
+    [
+      "exchange_pairs",
+      240,
+      240,
+      "OK"
+    ],
+    [
+      "hidden = total - listable",
+      36,
+      36,
+      "OK"
+    ]
+  ],
+  "all_ok": true,
+  "stats": {
+    "requests": 108,
+    "retries_429": 16,
+    "retries_5xx": 0,
+    "token_refreshes": 1,
+    "blind_backoffs": 6
+  },
+  "elapsed_sec": 37.2
+}

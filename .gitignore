@@ -1,0 +1,7 @@
+# generated store — regenerate with: python3 sync.py
+turmeriq.db
+
+# python
+__pycache__/
+*.pyc
+.DS_Store
